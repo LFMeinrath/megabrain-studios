@@ -19,7 +19,7 @@
   </header>
 
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: 2026-09-20</p>
+  <p class="updated">Last updated: 2026-09-22</p>
 
   <h2>Summary</h2>
   <p><strong>MegaBrain Publisher has no users other than us.</strong> It is an internal tool that
@@ -33,15 +33,27 @@
 
   <h2>2. What the tool accesses</h2>
   <p>When we authorize MegaBrain Publisher against one of our own social media accounts, the
-  platform issues an access credential for that account. On TikTok the tool requests only:</p>
+  platform issues an access credential for that account.</p>
+  <p>On <strong>TikTok</strong> the tool requests only:</p>
   <ul>
     <li><strong>video.upload</strong> — to place a video we produced into our own account's inbox
     as a draft;</li>
     <li><strong>user.info.basic</strong> — to confirm which of our accounts the authorization
     belongs to, so a video is never sent to the wrong channel.</li>
   </ul>
-  <p>The tool does not read other people's profiles, followers, messages or videos, and does not
-  request any scope beyond those listed above.</p>
+  <p>On <strong>Facebook and Instagram</strong> (Meta Graph API), for our own Facebook Page and the
+  Instagram account linked to it, the tool requests only:</p>
+  <ul>
+    <li><strong>pages_show_list</strong> and <strong>pages_read_engagement</strong> — to identify
+    which of our own Pages the authorization belongs to, so a video is never sent to the wrong one;</li>
+    <li><strong>pages_manage_posts</strong> — to publish a video we produced to our own Page;</li>
+    <li><strong>instagram_basic</strong> — to identify the Instagram account linked to that Page;</li>
+    <li><strong>instagram_content_publish</strong> — to publish a video we produced to that
+    Instagram account.</li>
+  </ul>
+  <p>The tool does not read other people's profiles, followers, messages or videos, does not read
+  comments or direct messages, does not run advertising, and does not request any permission beyond
+  those listed above.</p>
 
   <h2>3. Data we store, and where</h2>
   <p>The authorization credentials are written to a file on the operator's own computer, readable
@@ -73,7 +85,16 @@
 
   <h2>9. Contact</h2>
   <p>Enquiries about this policy can be directed to the developer account registered for MegaBrain
-  Publisher on the TikTok for Developers platform.</p>
+  Publisher on the platform concerned — TikTok for Developers, or Meta for Developers (app
+  &ldquo;publicação automatica&rdquo;).</p>
+
+  <h2>10. Deleting our data</h2>
+  <p>Because the tool holds no data belonging to anyone but us, there is no third-party data to
+  delete on request. We remove our own authorization at any time from the platform&rsquo;s own
+  settings — on Facebook under <em>Settings &amp; privacy &rarr; Settings &rarr; Business
+  integrations</em>, and on TikTok under <em>Settings &rarr; Security &amp; permissions &rarr;
+  Manage app permissions</em> — which immediately invalidates the credential, and we then delete
+  the credential file from the operator&rsquo;s computer.</p>
 
   <footer>
     MegaBrain Studios · <a href="./">Home</a> · <a href="terms.html">Terms of Service</a>
